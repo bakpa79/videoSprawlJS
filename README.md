@@ -16,14 +16,20 @@ Currently, this is designed for modern browsers - for IE9 and earlier, you will 
 Include jQuery in the header, and videoSprawl right before the closing ```html</body>``` tag.
 
 ```html
+
+<img class="wallpaper" src="wallpaper.jpg" alt="" data-autoplay="true" data-loop="loop" data-muted="muted" data-volumn="0" data-poster="wallpaper.jpg" data-mp4="wallpaper.mp4" data-webm="wallpaper.webm" data-ogg="wallpaper.ogv">
+
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="videoSprawl.js"></script>
 <script>
 $(document).ready(function() {
-        $('.element-classname-here').videoSprawl();
+        $('.wallpaper').videoSprawl();
 })
 </script>
 ```
+
+After the script fires, it rewrite the the img element into:
+ *Place final video embed code here*
 
 Questions? [Brian Akpa](http://www.brianakpa.com)
 
