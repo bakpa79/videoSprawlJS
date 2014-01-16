@@ -13,7 +13,7 @@ Currently, this is designed for modern browsers - for IE9 and earlier, you will 
 [jQuery](http://jquery.com/).
 
 ## How to use
-Include jQuery in the header, and videoSprawl right before the closing </body> tag.
+Include jQuery in the header, and videoSprawl right before the closing ```html</body>``` tag.
 
 ```html
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
