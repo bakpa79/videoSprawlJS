@@ -11,6 +11,7 @@ Currently, this is designed for modern browsers - for IE9 and earlier, you will 
 
 ## Dependancies:
 [jQuery](http://jquery.com/).
+[Modernizr](http://modernizr.com) (for mobile detection).
 
 ## How to use
 Include jQuery in the header, and videoSprawl right before the closing ```html</body>``` tag.
